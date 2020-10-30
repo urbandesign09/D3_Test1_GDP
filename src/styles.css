@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(indianred, steelblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 950px;
+  background: ghostwhite;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  color: indianred;
+}
+
+p {
+  color: dimgrey;
+}
+
+#description {
+  text-align: center;
+}
+
+#reference {
+  font-size: 80%;
+}
+
+.bar:hover {
+  fill: indianred;
+}
+
+.grid .tick {
+  stroke: rgb(228, 228, 228);
+  color: lightgrey;
+  opacity: 0.7;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+#tooltip {
+  background: indianred;
+  color: white;
+  padding: 0 10px;
+}
+
+svg:hover {
+  cursor: grab;
+}
